@@ -3,7 +3,7 @@
 # values have a default.
 
 # -- General configuration --
-project = 'Sphinx On Netlify'
+project = 'CElestial Minds'
 copyright = '2021, Seo Wings'
 author = 'seowings'
 
@@ -21,7 +21,7 @@ sitemap_filename = "sitemap.xml"
 
 html_css_files = ['custom.css']
 html_js_files = ['custom.js']
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 html_baseurl = 'https://sphinx-netlify.netlify.app/'
 html_theme_options = {
     'current_version': version,
