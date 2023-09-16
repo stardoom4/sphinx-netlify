@@ -3,9 +3,9 @@
 # values have a default.
 
 # -- General configuration --
-project = 'CElestial Minds'
-copyright = '2021, Seo Wings'
-author = 'seowings'
+project = 'Celestial Minds'
+copyright = '2023, Garuda'
+author = 'Garuda'
 
 master_doc = 'index'
 version = 'latest'
@@ -21,7 +21,7 @@ sitemap_filename = "sitemap.xml"
 
 html_css_files = ['custom.css']
 html_js_files = ['custom.js']
-html_theme = 'alabaster'
+html_theme = 'sphinx_book_theme'
 html_baseurl = 'https://sphinx-netlify.netlify.app/'
 html_theme_options = {
     'current_version': version,
